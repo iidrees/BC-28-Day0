@@ -1,0 +1,35 @@
+{
+  "name": "bc-28-day0",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "mocha --compilers js:babel-core/register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iidrees/BC-28-Day0.git"
+  },
+  "author": "Idrees",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iidrees/BC-28-Day0/issues"
+  },
+  "homepage": "https://github.com/iidrees/BC-28-Day0#readme",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "chai": "^4.1.2",
+    "eslint": "^4.9.0",
+    "mocha": "^4.0.1"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0"
+  }
+}
