@@ -1,5 +1,5 @@
-const assert = require('chai').assert;
-const rainDrop = require('../lib/rainDrop');
+import { assert } from 'chai';
+import rainDrop from '../lib/rainDrop';
 
 
 describe('Convert number to a string "Pling", "Plang", "Plong" the content of which depends on the numbers prime factors 3, 5, 7', () => {
